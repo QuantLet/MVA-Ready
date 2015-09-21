@@ -4,10 +4,9 @@
 # Published in : Applied Multivariate Statistical Analysis
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Description : Plots an SVM classification plot of 
-# bankruptcy data set. Support Vector Machine is of class 
-# "ksvm".
+# bankruptcy data set with sigma = 2 and C = 1.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : SVM, financial, plot, classification, kernel
+# Keywords : SVM, financial, plot, graphical representation, classification, kernel, data visualization
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # See also : STF2svm01, MVAsvmSig05C200, MVAsvmSig100C1
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
@@ -17,22 +16,25 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Datafile : Bankruptcy100by100noNA.txt
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : Shows an SVM classification plot
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
-library(kernlab)
-library(tseries)
-library(quadprog)
-library(zoo)
+# clear variables and close windows
+rm(list = ls(all = TRUE))
+graphics.off()
 
-#Read file into R and create an SVM classification model of type "ksvm
+# install and load packages
+libraries = c("kernlab", "tseries", "quadprog", "zoo")
+lapply(libraries, function(x) if (!(x %in% installed.packages())) {
+    install.packages(x)
+})
+lapply(libraries, library, quietly = TRUE, character.only = TRUE)
+
+# load data and create an SVM classification model of type 'ksvm
 G = read.matrix("Bankruptcy100by100noNA.txt", header = TRUE, sep = "")
-bankmodel_draw = ksvm(G[,c(7,28)],G[,c(3)], type = "C-svc", 
-kernel = "rbfdot", kpar = list(sigma = 1/2), C = 1)
+bankmodel_draw = ksvm(G[, c(7, 28)], G[, c(3)], type = "C-svc", kernel = "rbfdot", 
+    kpar = list(sigma = 1/2), C = 1)
 
-#Print output of SVM
+# Print output of SVM
 print(bankmodel_draw)
 
-#Create plot of SVM classification model
-win.graph()
-plot(bankmodel_draw, data=G[,c(7,28)]) 
+# Create plot of SVM classification model
+plot(bankmodel_draw, data = G[, c(7, 28)]) 

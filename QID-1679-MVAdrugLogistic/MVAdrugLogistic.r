@@ -10,7 +10,7 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Keywords : probability, logit, plot, graphical representation, regression 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : 
+# See also : MVAdrug3waysTab, MVAdrug
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Author : Awdesch Melzer
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
@@ -95,6 +95,7 @@ plot(X1[(K + 1):(2 * K), 3], oddratfit[(K + 1):(2 * K)], type = "l", ylim = c(-3
     -0.5), xlab = "Age category", ylab = "log of odds-ratios", lwd = 2)
 points(X1[1:K, 3], oddrat[1:K], pch = "*", cex = 2, col = "red3")
 points(X1[(K + 1):(2 * K), 3], oddrat[(K + 1):(2 * K)], cex = 2, col = "blue3")
+title(paste("Fit of the log of the odds-ratios "))
 
 # logistic model with curvature term: log(y)~gender + age + age^2
 (X2 = cbind(X, average, average * average))
@@ -147,6 +148,7 @@ plot(X2[(K + 1):(2 * K), 3], oddratfit[(K + 1):(2 * K)], type = "l", ylim = c(-3
     -0.5), xlab = "Age category", ylab = "log of odds-ratios", lwd = 2)
 points(X2[1:K, 3], oddrat[1:K], pch = "*", cex = 2, col = "red3")
 points(X2[(K + 1):(2 * K), 3], oddrat[(K + 1):(2 * K)], cex = 2, col = "blue3")
+title(paste("Fit of the log of the odds-ratios "))
 
 # test model one against model two
 print("degree of freedom")

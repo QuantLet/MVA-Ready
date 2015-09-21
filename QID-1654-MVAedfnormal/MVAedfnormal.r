@@ -8,10 +8,10 @@
 # (edf) vs. the normal cumulative distribution function (cdf). 
 # Number of draws can be entered interactively.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : standard normal, multivariate, plot, edf, cdf,
-# standard normal
+# Keywords : standard-normal, multivariate, plot, graphical representation, edf, cdf,
+# standard, normal, distribution
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAdenbank2, MVAdenbank3, MVAedfbootstrap
+# See also : MVAedfbootstrap
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Author : Vladimir Georgescu, Jorge Patron, Song Song, 
 # Awdesch Melzer
@@ -19,13 +19,14 @@
 # Submitted : Wed, March 14 2012 by Dedy Dwi Prastyo
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Example : Shows the EDF and CDF for the empirical and
-# theoretical distribution with n=100 and n=1000
+# theoretical distribution with n=100 and n=1000.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
-# Close windows and clear variables
+# close windows and clear variables
 graphics.off()
 rm(list = ls(all = TRUE))
 
+# input parameters
 print("Please input number of draws n as: 100")
 print("then press enter two times")
 para = scan()
