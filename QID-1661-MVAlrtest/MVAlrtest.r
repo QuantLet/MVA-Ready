@@ -8,7 +8,7 @@
 # on sales X1 for a unrestricted and a restricted model and
 # runs a LR and F-test for the classic pullovers data.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : MLE, linear regression, regression, linear, linear-model, 
+# Keywords : MLE, linear regression, regression, linear, 
 # financial, hypothesis-testing, test, F-test, F-statistic 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # See also : 
