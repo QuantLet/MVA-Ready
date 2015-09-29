@@ -1,0 +1,2 @@
+# QID-2545-MVAQnetClusKmeansT
+[not-vali-S] feeds-in keyword weighting scheme data of quantlets from MVA book, BCS project and the whole Quantnet. Vector representation is taken from data for the advanced T model using a term-term correlation matrix for best transformation before applying k-means algorithm for four clusters and representation via multi-dimensional scaling (projected upon 2 dimensions).
