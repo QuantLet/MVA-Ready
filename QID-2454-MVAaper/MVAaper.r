@@ -6,10 +6,11 @@
 # Description : Demonstrates maximum likelihood discrimination rule
 # (ML rule) and calculates the apparent error rate for Swiss banknotes.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : apparent-error-rate, discrimination, mean, probability,
-# estimation, discriminant-analysis, maximum-likelihood
+# Keywords : apparent-error-rate, discrimination,
+# estimation, discriminant-analysis, maximum-likelihood,
+# financial
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAaerbh
+# See also : MVAaer, MVAaerbh, MVAdiscbh, MVAdisfbank, MVAdisnorm
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Author : Wolfgang K. Härdle, Vladimir Georgescu, Song Song, 
 # Awdesch Melzer
