@@ -1,5 +1,7 @@
  QID-1579-MVApcp8
 
+ ![MVApcp8.png](MVApcp8.png)
+ 
 ```R
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Name of QuantLet : MVApcp8
