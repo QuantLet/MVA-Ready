@@ -23,7 +23,6 @@
 # Input : z1 - first data point
 #         z2 - second data point
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-```
 
 # clear all variables
 rm(list = ls(all = TRUE))
@@ -50,3 +49,4 @@ points(c(3, 4), c(2, 1))
 axis(side = 1, at = seq(1, 4), labels = seq(1, 4))
 axis(side = 2, at = seq(0, 3), labels = seq(0, 3))
 title("Parallel Coordinates Plot with Cubic Spline") 
+```
