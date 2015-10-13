@@ -48,8 +48,10 @@ set.seed(80)
 # Generate standard normal random numbers
 y = rnorm(n, 0, 1)  
 y = ecdf(y)
+
+# Plot of empirical distribution function
 plot(y, pch = NaN, verticals = TRUE, col = "blue3", lwd = 1.5, xlim = c(-3, 
-  3), main = "EDF and CFD", ylab = "EDF(X), CDF(X)", xlab = "X")  #Plot the empirical distribution function
+  3), main = "EDF and CFD", ylab = "EDF(X), CDF(X)", xlab = "X")  
 lines(seq(-3, 3, 0.1), pnorm(seq(-3, 3, 0.1), 0, 1), col = "red3", lwd = 2.5)
 legend(x = -3, y = 1, legend = c("Empirical", "Theoretical"), pch = c(20, 
   20), col = c("blue3", "red3"))
