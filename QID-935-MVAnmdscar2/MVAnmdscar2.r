@@ -42,6 +42,7 @@ f5 = c(5, d[1, 4])
 f6 = c(6, d[3, 4])
 fig = rbind(f1, f2, f3, f4, f5, f6)
 
+# plot
 plot(fig, pch = 15, col = "blue", xlim = c(0, 7), ylim = c(0, 10), xlab = "Dissimilarity", 
     ylab = "Distance", main = "Dissimilarities and Distances", cex.axis = 1.2, cex.lab = 1.2, 
     cex.main = 1.8)
