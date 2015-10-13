@@ -35,7 +35,7 @@ ros  = c(237, 444, 140, 687, 771, 0)
 
 dist = cbind(ber, dre, ham, kob, mue, ros)
 
-# a,b,h,i,r,x,xx1,xx2 are matrices
+# a, b, h, i, r, x, xx1, xx2 are matrices
 a    = (dist^2) * (-0.5)
 i    = diag(6)
 u    = rep(1, 6)
