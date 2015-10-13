@@ -3,18 +3,22 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Published in : Applied Multivariate Statistical Analysis
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Computes the map of the cities by application of
-# multidimensional scaling. Reflects and rotates the figure by 90°.
+# Description : Computes the map of the cities by 
+# application of multidimensional scaling. Reflects and 
+# rotates the figure by 90°.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : MDS, multi-dimensional, scaling, plot, graphical representation
+# Keywords : MDS, multi-dimensional, scaling, plot, 
+# graphical representation
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAMDScity1, MVAMDSnonmstart, MVAMDSpooladj, MVAmdscarm, MVAnmdscar1, MVAnmdscar2, MVAnmdscar3
+# See also : MVAMDScity1, MVAMDSnonmstart, MVAMDSpooladj, 
+# MVAmdscarm, MVAnmdscar1, MVAnmdscar2, MVAnmdscar3
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Author : Zografia Anastasiadou
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Submitted : Tue, October 28 2014 by Felix Jung
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example:   Metric MDS solution for the intercity road distances after reflection and 90° rotation.
+# Example:   Metric MDS solution for the intercity road 
+# distances after reflection and 90° rotation.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
@@ -38,7 +42,6 @@ u   = rep(1, 6)
 h   = i - (1/6 * (u %*% t(u)))
 b   = h %*% a %*% h             # Determine the inner product matrix
 e   = eigen(b)
-
 g1  = cbind(e$vectors[, 1], -e$vectors[, 2])
 g2  = diag(e$values[1:2])
 xx1 = g1 %*% (g2^0.5)           # Determine the coordinate matrix
