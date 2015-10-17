@@ -40,4 +40,3 @@ computer = allbus4[, 2]
 # Hexagon plot
 hexbinplot(computer ~ ages4, main="Hexagon plot", xlab = "Age", ylab = "Computer time", 
            style = "colorscale", aspect = 1, trans = sqrt, inv = function(ages4) ages4 ^ 2)
-tidy_source(file='output.R')
