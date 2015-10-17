@@ -26,8 +26,8 @@ ibm   = read.csv("ibm.csv")
 apple = read.csv("apple.csv")
 bac   = read.csv("bac.csv")
 ford  = read.csv("ford.csv")
-ed 	  = read.csv("ed.csv")
-ms 	  = read.csv("ms.csv")
+ed    = read.csv("ed.csv")
+ms    = read.csv("ms.csv")
 
 # compute returns for IBM
 y1 = ibm[, 5]
