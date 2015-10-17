@@ -26,40 +26,40 @@ rm(list = ls(all = TRUE))
 graphics.off()
 
 # load data
-ibm 	= read.csv("ibm.csv")
-ford 	= read.csv("ford.csv")
+ibm  = read.csv("ibm.csv")
+ford = read.csv("ford.csv")
 
 # compute returns for IBM
-y1 	= ibm[, 5]
-a 	= 0
-i 	= 1
+y1 = ibm[, 5]
+a  = 0
+i  = 1
 while (i <= 120) {
-    i 		= i + 1
-    a[i] 	= (y1[i] - y1[i - 1])/y1[i]
+    i    = i + 1
+    a[i] = (y1[i] - y1[i - 1])/y1[i]
 }
 x1 = a[2:121]
 
 # compute returns for Forward Industries
-y2 	= ford[, 5]
-f 	= 0
-i 	= 1
+y2 = ford[, 5]
+f  = 0
+i  = 1
 while (i <= 120) {
-    i 		= i + 1
-    f[i] 	= (y2[i] - y2[i - 1])/y2[i]
+    i    = i + 1
+    f[i] = (y2[i] - y2[i - 1])/y2[i]
 }
-x2 	= f[2:121]
+x2 = f[2:121]
 
-x 	= cbind(x1, x2) 						# MVAportfolio of assets
-s1 	= solve(cov(x)) 						# inverse of empirical variance
-one 	= c(1, 1) 							# vector of ones
-c2 	= (s1 %*% one)/rep(t(one) %*% s1 %*% one, length(s1 %*% one)) 	# c2 weight
-c1 	= one/rep(sum(one), length(one)) 				# c1 weight
-q1 	= x %*% c1  							# Optimal MVAportfol_IBM_Ford returns 
-q2 	= x %*% c2  							# Nonoptimal MVAport_IBM_Ford returns 
+x   = cbind(x1, x2)                         # MVAportfolio of assets
+s1  = solve(cov(x))                         # inverse of empirical variance
+one = c(1, 1)                               # vector of ones
+c2  = (s1 %*% one)/rep(t(one) %*% s1 %*% one, length(s1 %*% one)) 	# c2 weight
+c1  = one/rep(sum(one), length(one))        # c1 weight
+q1  = x %*% c1                              # Optimal MVAportfol_IBM_Ford returns 
+q2  = x %*% c2                              # Nonoptimal MVAport_IBM_Ford returns 
 
-t 	= c(1:120)
-d1 	= cbind(t, q1)
-d2 	= cbind(t, q2)
+t   = c(1:120)
+d1  = cbind(t, q1)
+d2  = cbind(t, q2)
 
 # plot
 par(mfrow = c(2, 1))
