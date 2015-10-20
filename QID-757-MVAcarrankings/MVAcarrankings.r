@@ -3,14 +3,17 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Published in : Applied Multivariate Statistical Analysis
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Performs a monotone transformation to the estimated
-# stimulus utilities of the car example by applying the pool-adjacent-violators (PAV) algorithm.
+# Description : Performs a monotone transformation 
+# to the estimated stimulus utilities of the car example 
+# by applying the pool-adjacent-violators (PAV) algorithm.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : MDS, non-metric-MDS, multi-dimensional, scaling, PAV, violators, Shepard-Kruskal, 
+# Keywords : MDS, non-metric-MDS, multi-dimensional, 
+# scaling, PAV, violators, Shepard-Kruskal, 
 # regression, plot, graphical representation
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAMDScity1, MVAMDScity2, MVAMDSpooladj, MVAmdscarm, MVAnmdscar1, 
-# MVAnmdscar2, MVAnmdscar3, MVAMDSnonmstart, PAVAlgo
+# See also : MVAMDScity1, MVAMDScity2, MVAMDSpooladj, 
+# MVAmdscarm, MVAnmdscar1, MVAnmdscar2, MVAnmdscar3, 
+# MVAMDSnonmstart, PAVAlgo
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Author : Zografia Anastasiadou
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
@@ -19,7 +22,8 @@
 # Input:    x - the reported preference orderings for the car example
 #           y - the fitted values of x              
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : Plot of estimated preference orderings vs revealed rankings and PAV fit.
+# Example : Plot of estimated preference orderings vs 
+# revealed rankings and PAV fit.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
@@ -41,13 +45,11 @@ z = cbind(x, y)
 
 # PAV algorithm
 gp = gpava(x, y)
-# the reported preference orderings
-a = gp$z
-# the estimated preference orderings after PAV algorithm
-b = gp$x
+a  = gp$z              # the reported preference orderings
+b  = gp$x              # the estimated preference orderings after PAV algorithm
 gp = cbind(a, b)
 
-# Plot
+# Plot of car rankings
 plot(gp, z, type = "n", xlab = "revealed rankings", ylab = "estimated rankings", 
     main = "Car rankings", cex.lab = 1.4, cex.axis = 1.4, cex.main = 1.6)
 lines(a, b, lwd = 2)
