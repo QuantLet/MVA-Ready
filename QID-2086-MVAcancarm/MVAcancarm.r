@@ -9,8 +9,7 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Keywords : canonical, canonical-analysis, correlation, plot, 
 # graphical representation, canonical-parameter, covariance, 
-# covariance-matrix, svd, singular-value-decomposition,
-# data visualization
+# covariance-matrix, svd, data visualization
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # See also : MVAcanus, SMScancarm, SMScancarm1, SMScancarm2,
 # SMScanfood, SMScanus
