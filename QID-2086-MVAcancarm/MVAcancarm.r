@@ -58,6 +58,7 @@ eta     = as.matrix(cars[, 1:2]) %*% a[, 1]
 phi     = as.matrix(cars[, 3:8]) %*% b[, 1]
 etaphi  = cbind(eta, phi)
 
+# plot
 plot(etaphi, type = "n", xlab = "Eta 1", ylab = "Phi 1", main = "Car Marks Data", 
     cex.lab = 1.2, cex.axis = 1.2, cex.main = 1.8)
 text(etaphi, rownames(car))
