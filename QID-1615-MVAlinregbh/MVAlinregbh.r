@@ -6,7 +6,7 @@
 # Description : Builds a linear regression model for the
 # complete transformed Boston housing data.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : linear, regression, linear regression, 
+# Keywords : linear, regression, linear-regression, 
 # financial, estimation 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # See also : MVAlinreg2bh, MMSTATlinreg, MVAregbank, MVAregpull, MVAregzoom, 
