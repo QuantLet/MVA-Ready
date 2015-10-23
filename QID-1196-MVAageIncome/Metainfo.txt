@@ -5,7 +5,7 @@ Description : Produces a hexagon and a scatter plot between Age and Net income.
 Keywords : 
 - plot 
 - graphical representation 
-- hexagon plot 
+- hexagon-plot 
 - data visualization 
 - financial 
 - scatterplot
