@@ -23,6 +23,4 @@ Author :
 - Awdesch Melzer
 - Felix Jung
 Submitted : Tue, September 09 2014 by Awdesch Melzer
-Input : 
-- z1 - first data point
-- z2 - second data point
+Input : 'z1 - first data point; z2 - second data point'
