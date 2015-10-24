@@ -1,2 +1,2 @@
 # QID-933-MVAMDSpooladj
-[not-vali-S] computes the pool adjacent violator algorithm.
+Computes the pool adjacent violator algorithm.
