@@ -38,7 +38,10 @@ See also :
 - SMSclusbank3
 - SMScluscomp
 - SMScluscrime
-Author : Awdesch Melzer, Simon Trimborn, Lukas Borke
+Author : 
+- Awdesch Melzer
+- Simon Trimborn
+- Lukas Borke
 Submitted : Tue, August 26 2014 by Lukas Borke
 Datafile : export_q_kw_141.dat, export_q_kw_310.dat, export_q_kw_All.dat
 Example : MDS for model B of BCS Qs (upper panel), MVA Qs (middle panel) and all Qs (lower panel)
