@@ -1,6 +1,6 @@
 Name of QuantLet : MVApcp1
-Published in : 'Applied Multivariate Statistical Analysis
-Description : Computes parallel coordinates plot for car data.'
+Published in : Applied Multivariate Statistical Analysis
+Description : Computes parallel coordinates plot for car data.
 Keywords : 
 - pcp
 - parallel-coordinates-plot
