@@ -1,7 +1,7 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **ID-2544-MVAQnetClusKmeansB**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **MVAQnetClusKmeansB**
 
 ```yaml
 Name of QuantLet : MVAQnetClusKmeansB

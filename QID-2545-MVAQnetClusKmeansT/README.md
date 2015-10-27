@@ -1,7 +1,7 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **QID-2545-MVAQnetClusKmeansT**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **MVAQnetClusKmeansT**
 
 
 ```yaml
