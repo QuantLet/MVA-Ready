@@ -1,30 +1,55 @@
-## QID-1579-MVApcp8
 
- ![MVApcp8.png](MVApcp8.png)
- 
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **MVApcp8**
+
+
+```yaml
+Name of QuantLet : MVApcp8
+
+Published in : Applied Multivariate Statistical Analysis
+Description : 'Computes parallel coordinates plot with 
+cubic spline interpolation.'
+
+Keywords : 
+- pcp
+- parallel-coordinates-plot
+- financial
+- spline
+- interpolation
+- data visualization
+- plot
+- graphical representation
+
+See also : 
+- MVApcphousing
+- MVApcp1
+- MVApcp2
+- MVApcp3
+- MVApcp4
+- MVApcp5
+- MVApcp6
+- MVApcp7
+
+Author : 
+- Ji Cao
+- Song Song
+- Vladimir Georgescu
+- Awdesch Melzer
+
+Submitted : Tue, September 09 2014 by Awdesch Melzer
+
+Input :
+- z1 : first data point
+- z2 : second data point
+
+```
+
+
+![Picture1](MVApcp8.png)
+
+
 ```R
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVApcp8
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Computes parallel coordinates plot with 
-# cubic spline interpolation.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : pcp, parallel-coordinates-plot, financial,
-# spline, interpolation, data visualization, plot, 
-# graphical representation
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVApcphousing, MVApcp1, MVApcp2, MVApcp3, 
-# MVApcp4, MVApcp5, MVApcp6, MVApcp7
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Ji Cao, Song Song, Vladimir Georgescu, Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, September 09 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Input : z1 - first data point
-#         z2 - second data point
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
@@ -51,4 +76,5 @@ points(c(3, 4), c(2, 1))
 axis(side = 1, at = seq(1, 4), labels = seq(1, 4))
 axis(side = 2, at = seq(0, 3), labels = seq(0, 3))
 title("Parallel Coordinates Plot with Cubic Spline") 
+
 ```
