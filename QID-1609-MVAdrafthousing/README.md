@@ -1,26 +1,46 @@
-## QID-1609-MVAdrafthousing
 
- ![MVAdrafthousing.png](MVAdrafthousing.png)
- 
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **MVAdrafthousing**
+
+
+```yaml
+Name of QuantLet : MVAdrafthousing
+
+Published in : Applied Multivariate Statistical Analysis
+
+Description : Plots the scatterplot matrix for Boston housing data.
+
+Keywords : 
+- financial
+- data visualization
+- boxplot
+- scatterplot
+- plot
+- graphical representation
+
+See also : 
+- MVAdrafthousingt
+- MVApcphousing
+
+Author : 
+- Vladimir Georgescu
+- Jorge Patron
+- Song Song
+- Julia Wandke
+- Awdesch Melzer
+
+Submitted : Tue, September 09 2014 by Awdesch Melzer
+
+Datafile : bostonh.dat
+
+```
+
+
+![Picture1](MVAdrafthousing.png)
+
+
 ```R
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAdrafthousing
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Plots the scatterplot matrix for Boston housing data.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : financial, data visualization, boxplot, 
-# scatterplot, plot, graphical representation
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAdrafthousingt, MVApcphousing
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Vladimir Georgescu, Jorge Patron, Song Song, Julia Wandke, Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, September 09 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : bostonh.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
