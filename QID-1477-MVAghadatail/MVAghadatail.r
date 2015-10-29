@@ -1,21 +1,3 @@
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAghadatail
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Plots four probability density functions 
-# (top) and four tails (bottom) in comparison of the NIG, 
-# the Laplace, the Cauchy and the Gauss distribution
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : pdf, cauchy, gaussian, laplace, distribution, tail, heavy-tailed, multivariate, probability, density,
-# plot, graphical representation
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAghdis, MVAghdistail
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Wolfgang K. Härdle
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Sun, January 29 2012 by Dedy Dwi Prastyo
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
