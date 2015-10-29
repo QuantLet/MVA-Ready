@@ -1,22 +1,3 @@
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAlaplacedis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Plots three probability density functions 
-# (top) and three cumulative density functions (bottom) 
-# of the Laplace-distribution with different scale 
-# (L1 stands for Laplace-distribution with scale 1, etc).
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : pdf, probability, density, cdf, multivariate, laplace, scale, plot, graphical representation, 
-# distribution, heavy-tailed
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : 
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Wolfgang K. Härdle
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Sun, January 29 2012 by Dedy Dwi Prastyo
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
