@@ -1,8 +1,11 @@
 Name of QuantLet : MVAghdis
+
 Published in : Applied Multivariate Statistical Analysis
+
 Description : 'Plots three probability density functions 
 (top) and three cumulative density functions (bottom) 
 of the GH, Hyperbolic and NIG distributions'
+
 Keywords : 
 - pdf
 - cdf
@@ -14,8 +17,10 @@ Keywords :
 - probability
 - distribution
 - heavy-tailed
+
 See also : 
 - MVAghdistail
 - MVAghadatail
+
 Author : Wolfgang K. Haerdle
 Submitted : Sun, January 29 2012 by Dedy Dwi Prastyo
