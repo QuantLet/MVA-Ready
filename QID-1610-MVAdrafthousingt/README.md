@@ -1,28 +1,48 @@
-## QID-1610-MVAdrafthousingt
 
- ![MVAdrafthousingt.png](MVAdrafthousingt.png)
- 
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **MVAdrafthousingt**
+
+
+```yaml
+Name of QuantLet : MVAdrafthousingt
+
+Published in : Applied Multivariate Statistical Analysis
+
+Description : 'Plots the scatterplot matrix for 
+the transformed Boston housing data variables
+X1, . . . ,X5 and X14..'
+
+Keywords : 
+- financial
+- data visualization
+- boxplot
+- scatterplot
+- plot
+- graphical representation
+
+See also : 
+- MVAdrafthousing
+- MVApcphousing
+
+Author : 
+- Vladimir Georgescu
+- Jorge Patron
+- Song Song
+- Julia Wandke
+- Awdesch Melzer
+
+Submitted : Tue, September 09 2014 by Awdesch Melzer
+
+Datafile : bostonh.dat
+
+```
+
+
+![Picture1](MVAdrafthousingt.png)
+
+
 ```R
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAdrafthousingt
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Plots the scatterplot matrix for 
-# the transformed Boston housing data variables 
-# X1, . . . ,X5 and X14..
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : financial, data visualization, boxplot, 
-# scatterplot, plot, graphical representation
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAdrafthousing, MVApcphousing
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Vladimir Georgescu, Jorge Patron, Song Song, Julia Wandke, Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, September 09 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : bostonh.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
