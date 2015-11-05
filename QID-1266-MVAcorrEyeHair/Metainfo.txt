@@ -1,0 +1,30 @@
+
+Name of QuantLet : MVAcorrEyeHair
+
+Published in : Applied Multivariate Statistical Analysis
+
+Description : 'Computes the Chi-Square test statistic 
+for the Eye-Hair data.'
+
+Keywords : 
+- correspondence-analysis
+- independence
+- test
+- chi-square-test
+- chi-square
+
+See also : 
+- MVAcorrbac
+- MVAcorrcrime
+- MVAcorrjourn
+- MVAcorrCar
+- SMScorrcrime
+- SMScorrcarm
+- SMScorrfood
+- SMScorrhealth
+
+Author : 
+- Andrija Mihoci
+- Xiaofeng Cao
+
+Submitted : Wed, September 07 2011 by Awdesch Melzer
