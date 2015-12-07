@@ -6,9 +6,8 @@
 ```yaml
 Name of QuantLet : MVAdrug
 Published in : Applied Multivariate Statistical Analysis
-Description : Produces a three-way contingency table for the drug consumption data from Everitt and
-Dunn.
-Keywords :
+Description : Produces a three-way contingency table for the drug consumption data from Everitt and Dunn.
+Keywords : 
 - contingency-table
 - regression
 - hypothesis-testing
@@ -16,7 +15,7 @@ Keywords :
 - test
 - chi-square test
 - statistics
-See also :
+See also : 
 - MMSTATassociation
 - MVAdrugLogistic
 - MVAdrugsim
@@ -24,30 +23,11 @@ See also :
 Author : Zografia Anastasiadou
 Submitted : Wed, October 08 2014 by Sergey Nasekin
 Output: Top table for men and bottom table for women.
+
 ```
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAdrug
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Produces a three-way contingency table for
-# the drug consumption data from Everitt and Dunn.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : contingency-table, regression, hypothesis-testing, chi-square, test, 
-# chi-square test, statistics
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MMSTATassociation, MVAdrugLogistic, MVAdrugsim, 
-# MVAdrug3waysTab
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Zografia Anastasiadou
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Wed, October 08 2014 by Sergey Nasekin
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Output: Top table for men and bottom table for women.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
