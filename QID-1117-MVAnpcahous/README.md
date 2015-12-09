@@ -10,11 +10,11 @@ Name of QuantLet : MVAnpcahous
 Published in : Applied Multivariate Statistical Analysis
 
 Description : 'Performs a PCA for the standardized Boston
-housing data. Determines the explained variance
-for the eigenvalues, which determine the relevant
-prinicipal components.'
+housing data. Determines the explained variance 
+for the eigenvalues, which determine the relevant 
+prinicipal components.' 
 
-Keywords :
+Keywords : 
 - principal-components
 - pca
 - npca
@@ -26,7 +26,7 @@ Keywords :
 - graphical representation
 - data visualization
 
-See also :
+See also : 
 - MVAnpcabanki
 - MVAnpcabank
 - MVAnpcahousi
@@ -47,10 +47,10 @@ Submitted : Fri, April 11 2014 by Awdesch Melzer
 
 Datafile : bostonh.dat
 
-Example :
-- Scatterplot of the first two PCs. Houses close to the Charles River are indicated with red
-squares.
+Example : 
+- Scatterplot of the first two PCs. Houses close to the Charles River are indicated with red squares.
 - Scatterplot of the first two PCs. More expensive houses are marked with red color.
+
 ```
 
 ![Picture1](MVAnpcahous_1-1.png)
