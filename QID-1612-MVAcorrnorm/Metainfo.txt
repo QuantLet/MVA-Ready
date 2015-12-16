@@ -3,8 +3,7 @@ Name of QuantLet : MVAcorrnorm
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes a two dimensional scatterplot of 
-two correlated normal random variables.' 
+Description : 'Computes a two dimensional scatterplot of two correlated normal random variables.' 
 
 Keywords : 
 - correlation
@@ -38,4 +37,5 @@ Author :
 
 Submitted : Mon, September 15 2014 by Awdesch Melzer
 
-Input : sig - Covariance matrix
+Input : 
+- sig : Covariance matrix
