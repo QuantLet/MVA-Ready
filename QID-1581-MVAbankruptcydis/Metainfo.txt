@@ -3,8 +3,7 @@ Name of Quantlet: MVAbankruptcydis
 
 Published in: Applied Multivariate Statistical Analysis
 
-Description: 'Computes classification ratio dynamic over 
-the number of terminal nodes: cross-validation.'
+Description: 'Computes classification ratio dynamic over the number of terminal nodes.'
 
 Keywords: classification, cross-validation, plot, data visualization, graphical representation
 
