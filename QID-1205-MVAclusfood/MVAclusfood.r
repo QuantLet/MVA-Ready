@@ -1,33 +1,3 @@
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAclusfood
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Performs cluster analysis for the french food data
-# after standardization of the variables. 
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : cluster-analysis, plot, graphical representation, 
-# distance, euclidean, data visualization, dendrogram,
-# principal-components, pca, standardization
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAclus8p, MVAclusbank, MVAspecclust, MVAclusbh, 
-# MVAclususcrime, SMSclus8p, SMSclus8pd, SMSclus8pmst2, 
-# SMSclusbank, SMScluscomp, SMScluscrime, SMScluscrimechi2, 
-# SMSclushealth
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Zografia Anastasiadou, Simon Trimborn
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Sun, September 07 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : food.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example 1: First vs second PC 
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example 2: The dendrogram for the French food expenditures 
-# after applying the Ward algorithm
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example 3: First vs second PC with clusters
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
