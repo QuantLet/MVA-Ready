@@ -4,25 +4,31 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAdrugLogistic** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+
 Name of QuantLet : MVAdrugLogistic
+
 Published in : Applied Multivariate Statistical Analysis
-Description : 'Calculates and plots the odds-ratios of the probability
-of taking drugs in a logit model for a gender-age group
-combination and tests two models (one without a curvature
-and more general model with a curvature term).'
-Keywords :
+
+Description : 'Calculates and plots the odds-ratios of the probability of taking drugs in a logit model for a gender-age group 
+combination and tests two models (one without a curvature and more general model with a curvature term).'
+
+Keywords : 
 - probability
 - logit
 - plot
 - graphical representation
 - regression
-See also :
+
+See also : 
 - MVAdrug3waysTab
 - MVAdrug
+
 Author : Awdesch Melzer
+
 Submitted : Wed, April 04 2012 by Dedy Dwi Prastyo
-Example : 'Fit of the log of the odds-ratios for taking drugs. Men are the stars and women are the
-circles.'
+
+Example : 'Fit of the log of the odds-ratios for taking drugs. Men are the stars and women are the circles.'
+
 ```
 
 ![Picture1](Log odds - Age category.png)
@@ -31,26 +37,6 @@ circles.'
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAdrugLogistic
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Calculates and plots the odds-ratios of the probability 
-# of taking drugs in a logit model for a gender-age group 
-# combination and tests two models (one without a curvature 
-# and more general model with a curvature term).
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : probability, logit, plot, graphical representation, regression 
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAdrug3waysTab, MVAdrug
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Wed, April 04 2012 by Dedy Dwi Prastyo
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : Fit of the log of the odds-ratios for taking drugs. Men are the stars and women are the circles.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
