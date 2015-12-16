@@ -22,35 +22,12 @@ Submitted : Tue, August 02 2011 by Awdesch Melzer
 Datafile :
 - uscrime.dat
 - ushealth.dat
-Output : Estimated covariance matrices Sxx, Sxy, Syx and Syy, estimated matrix K and estimated
-canonical correlation vectors (a and b) and canonical variables (eta and phi).
+Output : 'Estimated covariance matrices Sxx, Sxy, Syx and Syy, estimated matrix K and estimated
+canonical correlation vectors (a and b) and canonical variables (eta and phi).'
 ```
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAcanus
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Performs a canonical correlation analysis
-# for the US crime and US health data.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : estimation, covariance, covariance-matrix, correlation, 
-# canonical-analysis, canonical, singular-value-decomposition, SVD
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAcancarm
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Dedy D. Prastyo
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, August 02 2011 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : uscrime.dat, ushealth.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Output : Estimated covariance matrices Sxx, Sxy, Syx and Syy,
-# estimated matrix K and estimated canonical correlation
-# vectors (a and b) and canonical variables (eta and phi).
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
