@@ -9,8 +9,7 @@ Name of QuantLet : MVAregpull
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes and plots a linear regression of
-sales on price from the pullovers data set.'
+Description : 'Computes and plots a linear regression of sales on price from the pullovers data set.'
 
 Keywords :
 - R-squared
@@ -46,6 +45,7 @@ Author :
 Submitted : Mon, September 15 2014 by Awdesch Melzer
 
 Datafile : pullover.dat
+
 ```
 
 ![Picture1](MVAregpull_1.png)
