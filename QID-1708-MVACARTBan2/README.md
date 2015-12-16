@@ -12,8 +12,7 @@ Published in : Applied Multivariate Statistical Analysis
 Description : 'Performs classification analysis and plots the classification tree
 for the US bankruptcy data with 84 companies employing the Gini index and a constraint.'
 
-Keywords : plot, graphical representation, classification, analysis, financial, decision-tree, data
-visualization
+Keywords : 'plot, graphical representation, classification, analysis, financial, decision-tree, data, visualization'
 
 See also : MVACARTGiniTree1, MVACARTTwoingTree1
 
@@ -22,6 +21,7 @@ Author : Awdesch Melzer
 Submitted : Wed, April 25 2012 by Dedy Dwi Prastyo
 
 Datafile : bankruptcy.dat
+
 ```
 
 ![Picture1](MVACARTBan2-1.png)
