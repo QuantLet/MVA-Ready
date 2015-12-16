@@ -9,11 +9,10 @@ Name of QuantLet : MVAportfol
 Published in : Applied Multivariate Statistical Analysis
 
 Description : 'Computes the optimal portfolio weights with monthly returns of six US firms from Jan
-2000 to Dec 2009.
-The optimal portfolio is compared with an equally weighted one.'
+2000 to Dec 2009. The optimal portfolio is compared with an equally weighted one.'
 
-Keywords : financial, portfolio, returns, asset, time-series, data visualization, plot, graphical
-representation
+Keywords : 'financial, portfolio, returns, asset, time-series, data visualization, plot, graphical
+representation'
 
 See also : MVAportfol_IBM_Ford, MVAportfol_IBM_PanAm, MVAreturns
 
