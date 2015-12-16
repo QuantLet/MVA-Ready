@@ -8,9 +8,8 @@ Name of QuantLet : MVAdrafthousingt
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Plots the scatterplot matrix for
-the transformed Boston housing data variables
-X1, . . . ,X5 and X14..'
+Description : 'Plots the scatterplot matrix for the transformed Boston housing data variables
+X1, . . . ,X5 and X14.'
 
 Keywords :
 - financial
