@@ -2,8 +2,7 @@ Name of QuantLet : MVApcp8
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes parallel coordinates plot with 
-cubic spline interpolation.'
+Description : 'Computes parallel coordinates plot with cubic spline interpolation.'
 
 Keywords : 
 - pcp
