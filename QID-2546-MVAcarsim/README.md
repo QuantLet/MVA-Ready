@@ -4,50 +4,36 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAcarsim** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+
 Name of QuantLet : MVAcarsim
+
 Published in : Applied Multivariate Statistical Analysis
-Description : Сomputes the Jaccard, simple matching and Tanimoto proximity coefficients for binary
-car data.
-Keywords :
+
+Description : 'Сomputes the Jaccard, simple matching and Tanimoto proximity coefficients for binary car data.'
+
+Keywords : 
 - cluster-analysis
 - proximity
 - similarity
 - distance
 - financial
-See also :
+
+See also : 
 - MVAdrugsim
 - SMScarsim
+
 Author : Awdesch Melzer
+
 Submitted : Sun, September 07 2014 by Awdesch Melzer
+
 Datafile : carmean2.dat
-Example : Jaccard, simple matching and Tanimoto proximity coefficients for Renault, Rover and
-Toyota car data
+
+Example : 'Jaccard, simple matching and Tanimoto proximity coefficients for Renault, Rover and Toyota car data'
+
 ```
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAcarsim
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Сomputes the Jaccard, simple matching and 
-# Tanimoto proximity coefficients for binary car data.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : cluster-analysis, proximity, similarity, distance,
-# financial
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAdrugsim, SMScarsim
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Sun, September 07 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : carmean2.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : Jaccard, simple matching and Tanimoto proximity 
-# coefficients for Renault, Rover and Toyota car data
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
