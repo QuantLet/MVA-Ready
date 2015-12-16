@@ -9,8 +9,7 @@ Name of QuantLet : MVAscapull2
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes a two dimensional scatterplot of
-assistants and sales from the pullovers data set.'
+Description : 'Computes a two dimensional scatterplot of assistants and sales from the pullovers data set.'
 
 Keywords :
 - data visualization
@@ -41,6 +40,7 @@ Author :
 Submitted : Mon, September 15 2014 by Awdesch Melzer
 
 Datafile : pullover.dat
+
 ```
 
 ![Picture1](MVAscapull2_1.png)
