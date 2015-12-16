@@ -1,20 +1,3 @@
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAageIncome
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Produces a hexagon and a scatter plot between Age and Net income.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : plot, graphical representation, hexagon-plot, data visualization,
-# financial, scatterplot
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAincomeLi, MVAageCom
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Vinh Hanh Lieu
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, September 09 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : allbus.csv
 
 # clear all variables
 rm(list = ls(all = TRUE))
