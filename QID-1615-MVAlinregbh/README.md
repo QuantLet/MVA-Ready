@@ -4,17 +4,21 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAlinregbh** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+
 Name of QuantLet : MVAlinregbh
+
 Published in : Applied Multivariate Statistical Analysis
-Description : 'Builds a linear regression model for the
-complete transformed Boston housing data.'
-Keywords :
+
+Description : 'Builds a linear regression model for the complete transformed Boston housing data.'
+
+Keywords : 
 - linear
 - regression
 - linear-regression
 - financial
 - estimation
-See also :
+
+See also : 
 - MVAlinreg2bh
 - MMSTATlinreg
 - MVAregbank
@@ -26,40 +30,22 @@ See also :
 - MVAclusbh
 - MVAboxbhd
 - MVAaerbh
-Author :
+
+Author : 
 - Till Grossmass
 - Jorge Patron
 - Vladimir Georgescu
 - Song Song
 - Awdesch Melzer
+
 Submitted : Wed, February 29 2012 by Dedy Dwi Prastyo
+
 Datafile : bostonh.dat
+
 ```
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAlinregbh
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : Builds a linear regression model for the
-# complete transformed Boston housing data.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : linear, regression, linear-regression, 
-# financial, estimation 
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAlinreg2bh, MMSTATlinreg, MVAregbank, MVAregpull, MVAregzoom, 
-# MVAsimcibh, MVAdiscbh, MVAdescbh
-# MVAclusbh, MVAboxbhd, MVAaerbh
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Till Grossmass, Jorge Patron, Vladimir Georgescu, 
-# Song Song, Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Wed, February 29 2012 by Dedy Dwi Prastyo
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : bostonh.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
