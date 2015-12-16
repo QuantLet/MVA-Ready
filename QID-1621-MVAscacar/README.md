@@ -9,8 +9,7 @@ Name of QuantLet : MVAscacar
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes a two dimensional scatterplot of
-mileage and weight from the car data set.'
+Description : 'Computes a two dimensional scatterplot of mileage and weight from the car data set.'
 
 Keywords :
 - data visualization
