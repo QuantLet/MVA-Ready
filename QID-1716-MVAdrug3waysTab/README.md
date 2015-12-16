@@ -15,18 +15,18 @@ well as the coefficient estimates for the restricted model with
 first interactions for the drug data. It also computes G-squared
 deviance and Chi-squared test statistics.'
 
-Keywords : contingency-table, chi-square, chi-square test, test, statistics, regression,
-hypothesis-testing
+Keywords : 'contingency-table, chi-square, chi-square test, test, statistics, regression, hypothesis-testing'
 
 See also : MVAdrugLogistic, MVAdrug
 
 Author : Awdesch Melzer
 
-Submitted : Fri, May 04 2012 by Dedy Dwi Prastyo
+Submitted : Fri, May 04 2012 by Dedy Dwi Prastyo 
 
-Code warning :
+Code warning : 
 - '1: In sqrt(1/i) : NaNs produced'
 - '2: In sqrt(1/i) : NaNs produced'
+
 ```
 
 
