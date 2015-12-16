@@ -4,15 +4,19 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAQnetClusKmeansB** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+
 Name of QuantLet : MVAQnetClusKmeansB
+
 Published in : Applied Multivariate Statistical Analysis
-Description : 'The document similarity of quantlets is calculated
+
+Description : 'The document similarity of quantlets is calculated 
 based on their keywords. For this purpose quantlets are taken from
-the MVA book, BCS project and the whole Quantnet. First the keywords
+the MVA book, BCS project and the whole Quantnet. First the keywords 
 are transformed into the vector representation, basis model is used.
 Finally the k-means algorithm is applied for clustering (four clusters)
 and the data are represented via MDS (multidimensional scaling).'
-Keywords :
+
+Keywords : 
 - cluster-analysis
 - plot
 - graphical representation
@@ -25,7 +29,8 @@ Keywords :
 - MDS
 - similarity
 - data visualization
-See also :
+
+See also : 
 - MVAQnetClusKmeans
 - MVAQnetClusKmeansT
 - MVAclus8p
@@ -44,49 +49,24 @@ See also :
 - SMSclusbank3
 - SMScluscomp
 - SMScluscrime
-Author :
+
+Author : 
+- Lukas Borke
 - Awdesch Melzer
 - Simon Trimborn
-- Lukas Borke
+
 Submitted : Tue, August 26 2014 by Lukas Borke
+
 Datafile : export_q_kw_141.dat, export_q_kw_310.dat, export_q_kw_All.dat
+
 Example : MDS for model B of BCS Qs (upper panel), MVA Qs (middle panel) and all Qs (lower panel)
+
 ```
 
 ![Picture1](MVAQnetClusKmeansB.png)
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAQnetClusKmeansB
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : The document similarity of quantlets is calculated 
-# based on their keywords. For this purpose quantlets are taken from
-# the MVA book, BCS project and the whole Quantnet. First the keywords 
-# are transformed into the vector representation, basis model is used.
-# Finally the k-means algorithm is applied for clustering (four clusters)
-# and the data are represented via MDS (multidimensional scaling).
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : cluster-analysis, plot, graphical representation, kmeans,
-# distance, euclidean, euclidean-norm, multi-dimensional, scaling, MDS,
-# similarity, data visualization
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAQnetClusKmeans, MVAQnetClusKmeansT, MVAclus8p, MVAclusbank,
-# MVAclusbh, MVAclusfood, MVAclususcrime, MVAdrugsim, SMSclus8p, SMSclus8pd,
-# SMSclus8pmst2, SMSclushealth, SMScluscrimechi2, SMSclusbank, SMSclusbank2,
-# SMSclusbank3, SMScluscomp, SMScluscrime
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Awdesch Melzer, Simon Trimborn, Lukas Borke
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Tue, August 26 2014 by Lukas Borke
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : export_q_kw_141.dat, export_q_kw_310.dat, export_q_kw_All.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : MDS for model B of BCS Qs (upper panel),
-# MVA Qs (middle panel) and all Qs (lower panel)
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
