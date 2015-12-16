@@ -3,8 +3,7 @@ Name of QuantLet : MVAcorrEyeHair
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes the Chi-Square test statistic 
-for the Eye-Hair data.'
+Description : 'Computes the Chi-Square test statistic for the Eye-Hair data.'
 
 Keywords : 
 - correspondence-analysis
