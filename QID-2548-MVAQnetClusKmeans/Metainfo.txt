@@ -1,5 +1,8 @@
+
 Name of QuantLet : MVAQnetClusKmeans
+
 Published in : Applied Multivariate Statistical Analysis
+
 Description : 'The document similarity of quantlets is calculated 
 based on their keywords. For this purpose quantlets are taken from
 the MVA book and BCS project. First the keywords are transformed 
@@ -24,6 +27,7 @@ Keywords :
 - MDS
 - similarity
 - data visualization
+
 See also : 
 - MVAQnetClusKmeansB
 - MVAQnetClusKmeansT
@@ -43,13 +47,17 @@ See also :
 - SMSclusbank3
 - SMScluscomp
 - SMScluscrime
+
 Author : 
+- Lukas Borke
 - Awdesch Melzer
 - Simon Trimborn
-- Lukas Borke
+
 Submitted : Sun, September 07 2014 by Awdesch Melzer
+
 Datafile : 
 - export_q_kw_141.dat
 - export_q_kw_310.dat
 - export_q_kw_All.dat
+
 Example : Metric MDS for BCS and MVA quantlets

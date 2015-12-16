@@ -4,20 +4,23 @@
 ## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAQnetClusKmeans** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
 
 ```yaml
+
 Name of QuantLet : MVAQnetClusKmeans
+
 Published in : Applied Multivariate Statistical Analysis
-Description : 'The document similarity of quantlets is calculated
+
+Description : 'The document similarity of quantlets is calculated 
 based on their keywords. For this purpose quantlets are taken from
-the MVA book and BCS project. First the keywords are transformed
+the MVA book and BCS project. First the keywords are transformed 
 into the vector representation. Then the scalar product is applied
-calculating so the similarity measure. The advanced term-term
+calculating so the similarity measure. The advanced term-term 
 correlation model additionally uses the term-term correlation matrix
 between the terms of all documents. Finally the k-means algorithm with
-the Euclidean norm is applied for clustering (four clusters) and
-the data are represented via MDS (multidimensional scaling) showing
+the Euclidean norm is applied for clustering (four clusters) and 
+the data are represented via MDS (multidimensional scaling) showing 
 metric MDS for BCS quantlets and metric MDS for MVA quantlets.'
 
-Keywords :
+Keywords : 
 - cluster-analysis
 - plot
 - graphical representation
@@ -30,7 +33,8 @@ Keywords :
 - MDS
 - similarity
 - data visualization
-See also :
+
+See also : 
 - MVAQnetClusKmeansB
 - MVAQnetClusKmeansT
 - MVAclus8p
@@ -49,55 +53,27 @@ See also :
 - SMSclusbank3
 - SMScluscomp
 - SMScluscrime
-Author :
+
+Author : 
+- Lukas Borke
 - Awdesch Melzer
 - Simon Trimborn
-- Lukas Borke
+
 Submitted : Sun, September 07 2014 by Awdesch Melzer
-Datafile :
+
+Datafile : 
 - export_q_kw_141.dat
 - export_q_kw_310.dat
 - export_q_kw_All.dat
+
 Example : Metric MDS for BCS and MVA quantlets
+
 ```
 
 ![Picture1](MVAQnetClusKmeans.png)
 
 
 ```r
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Name of QuantLet : MVAQnetClusKmeans
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Published in : Applied Multivariate Statistical Analysis
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Description : The document similarity of quantlets is calculated 
-# based on their keywords. For this purpose quantlets are taken from
-# the MVA book and BCS project. First the keywords are transformed 
-# into the vector representation. Then the scalar product is applied
-# calculating so the similarity measure. The advanced term-term 
-# correlation model additionally uses the term-term correlation matrix
-# between the terms of all documents. Finally the k-means algorithm with
-# the Euclidean norm is applied for clustering (four clusters) and 
-# the data are represented via MDS (multidimensional scaling) showing 
-# metric MDS for BCS quantlets and metric MDS for MVA quantlets.
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Keywords : cluster-analysis, plot, graphical representation, kmeans,
-# distance, euclidean, euclidean-norm, multi-dimensional, scaling, MDS,
-# similarity, data visualization
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# See also : MVAQnetClusKmeansB, MVAQnetClusKmeansT, MVAclus8p, 
-# MVAclusbank, MVAclusbh, MVAclusfood, MVAclususcrime, MVAdrugsim, 
-# SMSclus8p, SMSclus8pd, SMSclus8pmst2, SMSclushealth, SMScluscrimechi2
-# SMSclusbank, SMSclusbank2, SMSclusbank3, SMScluscomp, SMScluscrime
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Author : Awdesch Melzer, Simon Trimborn, Lukas Borke
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Submitted : Sun, September 07 2014 by Awdesch Melzer
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : export_q_kw_141.dat, export_q_kw_310.dat, export_q_kw_All.dat
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example : Metric MDS for BCS and MVA quantlets
-# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 
 # clear all variables
 rm(list = ls(all = TRUE))
