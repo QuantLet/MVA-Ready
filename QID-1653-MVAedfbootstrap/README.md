@@ -1,4 +1,33 @@
 
+[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
+
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAedfbootstrap** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+
+```yaml
+
+Name of QuantLet : MVAedfbootstrap
+
+Published in : Applied Multivariate Statistical Analysis
+
+Description : 'Draws bootstrap samples from a simulate data standard normal dataset and plots their
+empirical distribution functions (edf).'
+
+Keywords : edf, bootstrap, plot, graphical representation, small-samples, distribution,
+multivariate
+
+See also : MVAedfnormal
+
+Author : Vladimir Georgescu, Jorge Patron, Song Song, Awdesch Melzer
+
+Submitted : Thu, October 16 2014 by Petra Burdejova
+
+```
+
+![Picture1](MVAedfbootstrap.png)
+
+
+```r
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -50,3 +79,5 @@ lines(edfs1[, 1], edfs1[, 2], col = "red3", lwd = 1.5, lty = "dotted")
 lines(edfs2[, 1], edfs2[, 2], col = "blue3", lwd = 1.5, lty = "dashed")
 legend(x = min(x), y = 1, legend = c("edf", "1. bootstrap edf", "2. bootstrap edf"), 
     pch = c(20, 20), col = c("black", "blue3", "red3")) 
+
+```

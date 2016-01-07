@@ -1,4 +1,34 @@
 
+[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
+
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **MVAresponsesurface** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+
+```yaml
+
+Name of QuantLet : MVAresponsesurface
+
+Published in : Applied Multivariate Statistical Analysis
+
+Description : 'Plots 3D response surfaces and a contour plot for the variable y and the two factors
+that explain the variation of y via the quadratic response model.'
+
+Keywords : 3D, surface, contour, plot, graphical representation, response-model, regression
+
+See also : MVAdrug
+
+Author : Awdesch Melzer
+
+Submitted : Wed, April 04 2012 by Dedy Dwi Prastyo
+
+```
+
+![Picture1](MVAresponsesurface_1.png)
+
+![Picture2](MVAresponsesurface_2.png)
+
+
+```r
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -44,3 +74,5 @@ wireframe(L, drape = T, xlab = list("X2", rot = 30, cex = 1.2), main = expressio
 dev.new()
 contour(L, col = rainbow(15), xlab = "X1", ylab = "X2", main = expression(paste("Contour plot")), 
     ) 
+
+```
