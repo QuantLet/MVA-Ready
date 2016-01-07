@@ -12,8 +12,8 @@ Published in : Applied Multivariate Statistical Analysis
 Description : 'Draws bootstrap samples from a simulate data standard normal dataset and plots their
 empirical distribution functions (edf).'
 
-Keywords : edf, bootstrap, plot, graphical representation, small-samples, distribution,
-multivariate
+Keywords : edf, bootstrap, plot, graphical representation, multivariate, small-samples,
+distribution
 
 See also : MVAedfnormal
 

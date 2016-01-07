@@ -1,0 +1,16 @@
+
+Name of QuantLet: MVAfactcarm
+
+Published in: Applied Multivariate Statistical Analysis
+
+Description: 'Performs a factor analysis for the car marks data and shows the eigenvalues of r-psi and a plot of the factor loadings for the first two factors.'
+
+Keywords: eigenvalues, factor, factor analysis, factor-loadings, spectral-decomposition, data visualization, plot, graphical representation, financial
+
+See also: SMSfactbank, SMSfactfood, SMSfacthletic, SMSfactsigma, SMSfactushealth, MVAdecofood, SMSdecobank 
+
+Author: Zografia Anastasiadou, Awdesch Melzer
+
+Submitted: Wed, June 04 2014 by Felix Jung
+
+Datafiles: carmean.dat

@@ -1,0 +1,15 @@
+Name of QuantLet: MVAboxcar
+
+Published in: Applied Multivariate Statistical Analysis
+
+Description: 'Computes the five-number summary and boxplots for the mileage (X14 variable) of US, Japanese and European cars.'
+
+Keywords: descriptive, descriptive-statistics, quantile, five number summary, financial, data visualization, boxplot, plot, graphical representation
+
+See also: MVAboxbank1, MVAboxbank6, MVAboxbhd, MVAboxcity
+
+Author: Vladimir Georgescu, Song Song, Jorge Patron
+
+Submitted: Tue, September 09 2014 by Awdesch Melzer
+
+Datafiles: carc.txt
