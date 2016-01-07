@@ -1,22 +1,10 @@
-
 Name of Quantlet: MVAboshousing
 
 Published in: Applied Multivariate Statistical Analysis
 
-Description: 'Computes the ANCOVA model with Boston housing data. 
-We add binary variable to the ANCOVA model, and try to check the 
-effect of the new factors on the dependent variable.'
+Description: Computes the ANCOVA model with Boston housing data. We add binary variable to the ANCOVA model, and try to check the effect of the new factors on the dependent variable.
 
-Keywords: 
-- ANCOVA
-- anova
-- regression
-- financial
-- covariance
-- linear
-- linear-model
-- linear-regression
-- test
+Keywords: ANCOVA, anova, regression, financial, covariance, linear, linear-model, linear-regression, test
 
 See also: SMSanovapull, SMSdete2pull
 

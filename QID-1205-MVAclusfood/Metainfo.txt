@@ -1,47 +1,20 @@
+Name of QuantLet: MVAclusfood
 
-Name of QuantLet : MVAclusfood
+Published in: Applied Multivariate Statistical Analysis
 
-Published in : Applied Multivariate Statistical Analysis
+Description: Performs cluster analysis for the french food data after standardization of the variables.
 
-Description : 'Performs cluster analysis for the french food data
-after standardization of the variables.'
+Keywords: cluster-analysis, plot, graphical representation, distance, euclidean, data visualization, dendrogram, principal-components, pca, standardization
 
-Keywords : 
-- cluster-analysis
-- plot
-- graphical representation
-- distance
-- euclidean
-- data visualization
-- dendrogram
-- principal-components
-- pca
-- standardization
+See also: MVAclus8p, MVAclusbank, MVAspecclust, MVAclusbh, MVAclususcrime, SMSclus8p, SMSclus8pd, SMSclus8pmst2, SMSclusbank, SMScluscomp, SMScluscrime, SMScluscrimechi2, SMSclushealth
 
-See also : 
-- MVAclus8p
-- MVAclusbank
-- MVAspecclust
-- MVAclusbh
-- MVAclususcrime
-- SMSclus8p
-- SMSclus8pd
-- SMSclus8pmst2
-- SMSclusbank
-- SMScluscomp
-- SMScluscrime
-- SMScluscrimechi2 
-- SMSclushealth
+Author: Zografia Anastasiadou, Simon Trimborn
 
-Author : 
-- Zografia Anastasiadou
-- Simon Trimborn
+Submitted: Sun, September 07 2014 by Awdesch Melzer
 
-Submitted : Sun, September 07 2014 by Awdesch Melzer
+Datafile: food.dat
 
-Datafile : food.dat
-
-Example : 
-- First vs second PC 
-- The dendrogram for the French food expenditures after applying the Ward algorithm
-- First vs second PC with clusters
+Example: 
+- 1: First vs second PC 
+- 2: The dendrogram for the French food expenditures after applying the Ward algorithm
+- 3: First vs second PC with clusters

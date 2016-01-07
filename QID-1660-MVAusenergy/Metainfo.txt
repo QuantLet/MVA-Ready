@@ -1,22 +1,11 @@
+Name of QuantLet: MVAusenergy
 
-Name of QuantLet : MVAusenergy
+Published in: Applied Multivariate Statistical Analysis
 
-Published in : Applied Multivariate Statistical Analysis
+Description: 'Computes a test statistic for the variance of the US energy company data. H0: empirical variance is equal to the theoretical variance, given unknown mean.'
 
-Description : 'Computes a test statistic for the variance 
-of the US energy company data. H0: empirical variance 
-is equal to the theoretical variance, given unknown mean.'
+Keywords: multivariate, variance, mean, test, statistics, MLE, hypothesis-testing, likelihood-ratio-test
 
-Keywords :
-- multivariate
-- variance
-- mean
-- test
-- statistics
-- MLE
-- hypothesis-testing
-- likelihood-ratio-test
+Author: Wolfgang K. Haerdle
 
-Author : Wolfgang K. Haerdle
-
-Submitted : Wed, March 14 2012 by Dedy Dwi Prastyo
+Submitted: Wed, March 14 2012 by Dedy Dwi Prastyo

@@ -1,30 +1,12 @@
-
 Name of Quantlet: MVAparcoo2
 
 Published in: Applied Multivariate Statistical Analysis
 
-Description: 'Computes a parallel coordinate plot for the 
-observations of the full bank note data set.'
+Description: Computes a parallel coordinate plot for the observations of the full bank note data set.
 
-Keywords: 
-- data visualization
-- graphical representation
-- plot
-- parallel-coordinates-plot
-- scaling
-- financial
+Keywords: data visualization, graphical representation, plot, parallel-coordinates-plot, scaling, financial
 
-See also: 
-- MVAandcur
-- MVAandcur2
-- MVAparcoo1
-- MVApcp1
-- MVApcp2
-- MVApcp3
-- MVApcp4
-- MVApcp5
-- MVApcp7
-- MVApcphousing
+See also: MVAandcur, MVAandcur2, MVAparcoo1, MVApcp1, MVApcp2, MVApcp3, MVApcp4, MVApcp5, MVApcp7, MVApcphousing
 
 Author: Vladimir Georgescu, Jorge Patron, Song Song, Julia Wandke
 
