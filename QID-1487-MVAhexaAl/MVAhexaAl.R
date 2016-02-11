@@ -3,13 +3,6 @@
 rm(list = ls(all = TRUE))
 graphics.off()
 
-# install and load packages
-libraries = c("hexbin")
-lapply(libraries, function(x) if (!(x %in% installed.packages())) {
-install.packages(x)
-})
-lapply(libraries, library, quietly = TRUE, character.only = TRUE)
-
 # create blue and black points
 a = c(-sqrt(3), 0, sqrt(3))
 blue = rep(-2:2, each = length(a))
