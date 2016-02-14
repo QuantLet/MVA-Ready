@@ -24,7 +24,7 @@ sg = sum(xgtest < 0)            # Number of misclassified genuine notes
 xftest = yf                     # Number of misclassified forged notes
 sf = sum(xftest > 0)
 
-fg = density(yg)                # density of projection o=f genuine notes
+fg = density(yg)                # density of projection of genuine notes
 ff = density(yf)                # density of projection of forged notes
 
 # plot
