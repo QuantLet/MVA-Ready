@@ -30,7 +30,7 @@ Example : Plot of estimated preference orderings vs revealed rankings and PAV fi
 
 ```
 
-![Picture1](car ratings.png)
+![Picture1](MVAcarrankings.png)
 
 
 ```r
