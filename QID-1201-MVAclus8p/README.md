@@ -38,7 +38,7 @@ Example:
 
 ![Picture4](MVAclus8p_2-1.png)
 
-
+### R Code:
 ```r
 
 # clear all variables
@@ -74,6 +74,7 @@ title(main = "Single Linkage Dendrogram - 8 points", ylab = "Squared Euclidean D
 
 ```
 
+### SAS Code:
 ```sas
 
 proc iml;
