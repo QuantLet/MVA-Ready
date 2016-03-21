@@ -65,7 +65,7 @@ text(eight, as.character(1:8), col = "red3", xlab = "first coordinate", ylab = "
 
 d  = dist(eight, method = "euclidean", p = 2)  # euclidean distance matrix
 dd = d^2                                       # squared euclidean distance matrix
-s  = hclust(dd, method = "single")             # cluster analysis with single linkage algorithm                      
+s  = hclust(dd, method = "single")             # cluster analysis with single linkage algorithm
 
 # Plot 2: The dendrogram for the 8-point example, Single linkage algorithm.
 dev.new()
