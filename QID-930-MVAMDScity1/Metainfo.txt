@@ -12,6 +12,6 @@ Author: Zografia Anastasiadou
 Author[SAS]: Svetlana Bykovskaya
 
 Submitted: Tue, October 28 2014 by Felix Jung
-
+Submitted[SAS]: Wen, March 30 2016 by Svetlana Bykovskaya
 
 Example: Metric MDS solution for the intercity road distances.
