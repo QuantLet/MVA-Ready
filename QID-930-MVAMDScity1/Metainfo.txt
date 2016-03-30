@@ -9,7 +9,9 @@ Keywords: MDS, multi-dimensional, scaling, plot, graphical representation, sas
 See also: MVAMDScity2, MVAMDSnonmstart, MVAMDSpooladj, MVAmdscarm, MVAnmdscar1, MVAnmdscar2, MVAnmdscar3
 
 Author: Zografia Anastasiadou
+Author[SAS]: Svetlana Bykovskaya
 
 Submitted: Tue, October 28 2014 by Felix Jung
+
 
 Example: Metric MDS solution for the intercity road distances.
