@@ -28,7 +28,7 @@ Submitted[SAS] : Wen, March 30 2016 by Svetlana Bykovskaya
 
 Datafile : bank2.dat
 
-Example : 'Densities of projections of genuine and counterfeit bank notes by Fisher's
+Example : 'Densities of projections of genuine and counterfeit bank notes by Fisher''s
 discrimination rule.'
 
 ```
