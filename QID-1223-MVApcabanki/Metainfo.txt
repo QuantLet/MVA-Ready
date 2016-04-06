@@ -4,13 +4,15 @@ Published in: Applied Multivariate Statistical Analysis
 
 Description: Shows a screeplot of the eigenvalues for the PCA of the Swiss bank notes. It computes the correlations between the variables and the principal components and displays the first two of them.
 
-Keywords: principal-components, pca, eigenvalues, screeplot, plot, graphical representation, data visualization, correlation
+Keywords: principal-components, pca, eigenvalues, screeplot, plot, graphical representation, data visualization, correlation, sas
 
 See also: MVAnpcabanki, MVAnpcabank, MVAnpcahousi, MVAnpcatime, MVAnpcafood, MVAnpcausco, MVAnpcausco2, MVAnpcausco2i, MVAcpcaiv, MVAnpcahous, MVApcabank, MVApcabankr, MVApcasimu
 
-Author: Zografia AnastasiadouMon
+Author: Zografia Anastasiadou
+Author[SAS]: Svetlana Bykovskaya
 
 Submitted: Mon, June 30 2014 by Franziska Schulz
+Submitted[SAS]: Wen, April 6 2016 by Svetlana Bykovskaya
 
 Datafile: bank2.dat
 
