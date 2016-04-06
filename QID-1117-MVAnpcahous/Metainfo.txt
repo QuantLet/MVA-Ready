@@ -4,13 +4,15 @@ Published in: Applied Multivariate Statistical Analysis
 
 Description: Performs a PCA for the standardized Boston housing data. Determines the explained variance for the eigenvalues, which determine the relevant principal components.
 
-Keywords: principal-components, pca, npca, eigenvalues, standardization, spectral-decomposition, scatterplot, plot, graphical representation, data visualization
+Keywords: principal-components, pca, npca, eigenvalues, standardization, spectral-decomposition, scatterplot, plot, graphical representation, data visualization, sas
 
 See also: MVAnpcabanki, MVAnpcabank, MVAnpcahousi, MVAnpcatime, MVAnpcafood, MVAnpcausco, MVAnpcausco2, MVAnpcausco2i, MVAcpcaiv, MVApcabank, MVApcabanki, MVApcabankr, MVApcasimu
 
 Author: Zografia Anastasiadou
+Author[SAS]: Svetlana Bykovskaya
 
 Submitted: Fri, April 11 2014 by Awdesch Melzer
+Submitted[SAS]: Wen, April 6 2016 by Svetlana Bykovskaya
 
 Datafile: bostonh.dat
 
