@@ -8,7 +8,7 @@ Keywords: principal-components, pca, npca, eigenvalues, dimension-reduction, sta
 
 See also: MVAnpcabanki, MVAnpcahous, MVAnpcahousi, MVAnpcatime, MVAnpcabank, MVAnpcausco, MVAnpcausco2, MVAnpcausco2i, MVAcpcaiv, MVApcabank, MVApcabanki, MVApcabankr, MVApcasimu
 
-Author: Zografia Anastasiadou, Awdesch MelzerMon
+Author: Zografia Anastasiadou, Awdesch Melzer
 Author[SAS]: Svetlana Bykovskaya
 
 Submitted: Mon, September 08 2014 by Franziska Schulz

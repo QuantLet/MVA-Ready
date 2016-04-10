@@ -19,7 +19,7 @@ eigenvalue-decomposition, normalization, plot, graphical representation, data vi
 See also : 'MVAnpcabanki, MVAnpcahous, MVAnpcahousi, MVAnpcatime, MVAnpcabank, MVAnpcausco,
 MVAnpcausco2, MVAnpcausco2i, MVAcpcaiv, MVApcabank, MVApcabanki, MVApcabankr, MVApcasimu'
 
-Author : Zografia Anastasiadou, Awdesch MelzerMon
+Author : Zografia Anastasiadou, Awdesch Melzer
 
 Author[SAS] : Svetlana Bykovskaya
 
