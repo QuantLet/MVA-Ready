@@ -38,6 +38,7 @@ Datafiles : pullover.dat
 ### R Code:
 ```r
 
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -145,17 +146,17 @@ title("Pullover Data")
 lines(rl[, 1], rl[, 2], lwd = 2)
 lines(ybar[, 1], ybar[, 2], lty = "dashed", lwd = 2)
 
-# Blueline
-blueline = rbind(line1[1, ], line1[2, ], line1[4, ], line1[5, ], line1[7, ], line1[8, 
+# redline
+redline = rbind(line1[1, ], line1[2, ], line1[4, ], line1[5, ], line1[7, ], line1[8, 
     ], line1[10, ], line1[11, ], line1[13, ], line1[14, ], line1[16, ], line1[17, 
     ], line1[19, ], line1[20, ], line1[22, ], line1[23, ], line1[25, ], line1[26, 
     ], line1[28, ], line1[29, ])
 
 i = 1
-s = dim(blueline)[1]
+s = dim(redline)[1]
 while (i < s) {
-    lines(c(blueline[i, 1], blueline[i + 1, 1]), c(blueline[i, 2], blueline[i + 
-        1, 2]), col = "blue3", lwd = 2, lty = "dashed")
+    lines(c(redline[i, 1], redline[i + 1, 1]), c(redline[i, 2], redline[i + 
+        1, 2]), col = "red3", lwd = 2, lty = "dashed")
     i = i + 2
 }
 
@@ -172,8 +173,8 @@ while (i < s) {
     i = i + 2
 }
 
-# Redline
-redline = rbind(line3[1, ], line3[3, ], line3[5, ], line3[6, ], line3[7, ], line3[8, 
+# blueline
+blueline = rbind(line3[1, ], line3[3, ], line3[5, ], line3[6, ], line3[7, ], line3[8, 
     ], line3[7, ], line3[9, ], line3[10, ], line3[12, ], line3[13, ], line3[15, 
     ], line3[17, ], line3[18, ], line3[19, ], line3[20, ], line3[23, ], line3[24, 
     ], line3[27, ], line3[26, ], line3[27, ], line3[28, ], line3[29, ], line3[30, 
@@ -181,10 +182,11 @@ redline = rbind(line3[1, ], line3[3, ], line3[5, ], line3[6, ], line3[7, ], line
 
 i = 1
 while (i < s) {
-    lines(c(redline[i, 1], redline[i + 1, 1]), c(redline[i, 2], redline[i + 1, 
-        2]), col = "red3", lwd = 2, lty = 4)
+    lines(c(blueline[i, 1], blueline[i + 1, 1]), c(blueline[i, 2], blueline[i + 1, 
+        2]), col = "blue3", lwd = 2, lty = 4)
     i = i + 2
 }
+
 
 ```
 
@@ -198,12 +200,24 @@ data pull;
   drop x3 x4;
 run;
 
+proc means data = pull noprint;
+  var x1;
+  output out = testmean mean = xbar;
+run;
+
+data _null_;
+  set testmean;
+  call symput("mx1",xbar);
+run;
+
+%put mean of x is &mx1;
+
 * calculating mean;
 %put mean x1 = &mx1;
 
 * regression of (X1) sales on (X2) price;
 ods graphics off;
-proc reg data = pull noprint;
+proc reg data = pull;
   model x1 = x2;
   ods output ParameterEstimates=PE;
 run;
@@ -255,14 +269,15 @@ proc sgplot data = pull noautolegend;
      lineattrs = (color = purple thickness = 2) 
      markerattrs = (color = black); 
    series y = b1 x = b2 / group = id 
-     lineattrs = (color = blue pattern = 4 thickness = 2);                   * blue line;
+     lineattrs = (color = red pattern = 4 thickness = 2);                   * red line;
    series y = r1 x = r2 / group = id 
-     lineattrs = (color = red pattern = MediumDashShortDash thickness = 2);  * red line;
+     lineattrs = (color = blue pattern = MediumDashShortDash thickness = 2);  * blue line;
    series y = g1 x = g2 / group = id 
      lineattrs = (color = green thickness = 2);                              * green line;
    refline &mx1 / lineattrs = (color = black pattern = 4 thickness = 2);
    xaxis min = 88  max = 102 label = 'Price (X2)';
    yaxis min = 162 max = 198 label = 'Sales (X1)';
 run;
+
 
 ```
