@@ -6,12 +6,24 @@ data pull;
   drop x3 x4;
 run;
 
+proc means data = pull noprint;
+  var x1;
+  output out = testmean mean = xbar;
+run;
+
+data _null_;
+  set testmean;
+  call symput("mx1",xbar);
+run;
+
+%put mean of x is &mx1;
+
 * calculating mean;
 %put mean x1 = &mx1;
 
 * regression of (X1) sales on (X2) price;
 ods graphics off;
-proc reg data = pull noprint;
+proc reg data = pull;
   model x1 = x2;
   ods output ParameterEstimates=PE;
 run;
@@ -63,9 +75,9 @@ proc sgplot data = pull noautolegend;
      lineattrs = (color = purple thickness = 2) 
      markerattrs = (color = black); 
    series y = b1 x = b2 / group = id 
-     lineattrs = (color = blue pattern = 4 thickness = 2);                   * blue line;
+     lineattrs = (color = red pattern = 4 thickness = 2);                   * red line;
    series y = r1 x = r2 / group = id 
-     lineattrs = (color = red pattern = MediumDashShortDash thickness = 2);  * red line;
+     lineattrs = (color = blue pattern = MediumDashShortDash thickness = 2);  * blue line;
    series y = g1 x = g2 / group = id 
      lineattrs = (color = green thickness = 2);                              * green line;
    refline &mx1 / lineattrs = (color = black pattern = 4 thickness = 2);
