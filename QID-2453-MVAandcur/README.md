@@ -9,7 +9,8 @@ Name of QuantLet : MVAandcur
 
 Published in : Applied Multivariate Statistical Analysis
 
-Description : 'Computes Andrew's Curves for the observations 96-105 of the Swiss bank notes data. The order of the variables is 1,2,3,4,5,6.'
+Description : 'Computes Andrew's Curves for the observations 96-105 of the Swiss bank notes data.
+The order of the variables is 1,2,3,4,5,6.'
 
 Keywords : 'Andrews curves, descriptive methods, normalization, scaling, financial, plot, graphical
 representation, data visualization'
